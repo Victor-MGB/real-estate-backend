@@ -16,7 +16,7 @@ app.use(cors());
 app.use('/recomendation',express.static(path.join(__dirname,'/recomendation')))
 app.use('/interior',express.static(path.join(__dirname, '/interior')))
 
-mongoose.connect('mongodb+srv://mgbemenaosonduv:w40j31bKpXuWHXWt@cluster0.sp8kn0t.mongodb.net/your-database-name?retryWrites=true&w=majority', {
+mongoose.connect('', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
